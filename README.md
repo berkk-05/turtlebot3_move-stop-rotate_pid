@@ -5,7 +5,7 @@ Bu depo, `my_pkg` ROS paketi altında geliştirilmiş iki farklı otonom mobil r
 ---
 
 ## 📍 Görev 1: Engelden Kaçma (Move-Stop-Rotate)
-**Dosya:** `scripts/engel_kacma.py`
+**Dosya:** `src/engel_kacma.py`
 
 Bu görevde robot, Lidar sensöründen gelen verileri kullanarak önüne çıkan engellerden kaçınır. Hiçbir hedef gözetmeksizin, sadece hayatta kalma ve çarpışma önleme mantığıyla çalışan reaktif bir durum makinesidir.
 
@@ -19,7 +19,7 @@ Bu görevde robot, Lidar sensöründen gelen verileri kullanarak önüne çıkan
 ---
 
 ## 🎯 Görev 2: PID ile Mesafe Kontrolü (Distance Control)
-**Dosya:** `scripts/pid_kontrol.py`
+**Dosya:** `src/pid_kontrol.py`
 
 Bu görevde robot, karşısındaki duvara veya engele tam olarak hedeflenen mesafede (0.5 metre) pürüzsüz bir şekilde durmak üzere tasarlanmış bir PID kontrolcüsü kullanır.
 
@@ -27,7 +27,7 @@ Bu görevde robot, karşısındaki duvara veya engele tam olarak hedeflenen mesa
 * **Tolerans (Deadband) ve Kilitleme:** Motorlardaki mikro titreşimleri (oscillation) önlemek için +-2 cm'lik bir tolerans aralığı eklenmiştir. Robot hedef aralığa girdiğinde sistemi kilitler ve görevi başarıyla sonlandırır.
 
 **Çalıştırmak İçin:**
-    rosrun my_pkg pid_kontrol.py
+    '''rosrun my_pkg pid_kontrol.py'''
 
 ---
 
@@ -38,6 +38,6 @@ Bu görevde robot, karşısındaki duvara veya engele tam olarak hedeflenen mesa
 * TurtleBot3 simülasyon paketleri (`turtlebot3_gazebo`)
 
 **Simülasyon ortamını başlatmak için:**
-    export TURTLEBOT3_MODEL=burger
-    roslaunch turtlebot3_gazebo turtlebot3_world.launch
+    '''export TURTLEBOT3_MODEL=waffle'''
+    '''roslaunch turtlebot3_gazebo turtlebot3_stage_2.launch'''
 
