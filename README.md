@@ -3,6 +3,24 @@
 Bu depo, `my_pkg` ROS paketi altında geliştirilmiş iki farklı otonom mobil robot görevini içermektedir. Görevler, ROS 1 Noetic ortamında TurtleBot3 kullanılarak hazırlanmıştır.
 
 ---
+# TurtleBot3: Navigation and PID Control 🐢
+
+Bu depo, `my_pkg` ROS paketi altında geliştirilmiş iki farklı otonom mobil robot görevini içermektedir. Görevler, ROS 1 Noetic ortamında TurtleBot3 kullanılarak hazırlanmıştır.
+
+---
+
+## 📥 Paketi İndirme ve Derleme (Cloning & Setup)
+
+Bu paketi kendi ROS çalışma alanınıza (workspace) eklemek için bir terminal açıp aşağıdaki komutları sırasıyla çalıştırabilirsiniz:
+
+```bash
+cd ~/catkin_ws/src
+git clone [https://github.com/berkk-05/turtlebot3_basics.git](https://github.com/berkk-05/turtlebot3_basics.git)
+cd ~/catkin_ws
+catkin_make
+source devel/setup.bash
+
+---
 
 ## 📍 Görev 1: Engelden Kaçma (Move-Stop-Rotate)
 **Dosya:** `src/engel_kacma.py`
