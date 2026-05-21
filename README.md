@@ -57,9 +57,6 @@ rosrun my_pkg pid_kontrol.py
 
 ```bash
 export TURTLEBOT3_MODEL=waffle
-```
-
-```bash
 roslaunch turtlebot3_gazebo turtlebot3_stage_2.launch
 ```
 
