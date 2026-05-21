@@ -14,9 +14,9 @@ Bu görevde robot, Lidar sensöründen gelen verileri kullanarak önüne çıkan
 * **Rotate:** Engel sensör açısından çıkana kadar kendi ekseni etrafında döner ve önü açıldığında tekrar ilerlemeye başlar.
 
 **Çalıştırmak İçin:**
-    ```bash
-    rosrun my_pkg engel_kacma.py
-    '''
+```bash
+rosrun my_pkg engel_kacma.py
+```
 
 ---
 
@@ -29,9 +29,9 @@ Bu görevde robot, karşısındaki duvara veya engele tam olarak hedeflenen mesa
 * **Tolerans (Deadband) ve Kilitleme:** Motorlardaki mikro titreşimleri (oscillation) önlemek için +-2 cm'lik bir tolerans aralığı eklenmiştir. Robot hedef aralığa girdiğinde sistemi kilitler ve görevi başarıyla sonlandırır.
 
 **Çalıştırmak İçin:**
-   ```bash
-    rosrun my_pkg pid_kontrol.py
-   '''
+```bash
+rosrun my_pkg pid_kontrol.py
+```
 
 ---
 
@@ -42,10 +42,12 @@ Bu görevde robot, karşısındaki duvara veya engele tam olarak hedeflenen mesa
 * TurtleBot3 simülasyon paketleri (`turtlebot3_gazebo`)
 
 **Simülasyon ortamını başlatmak için:**
+
 ```bash
 export TURTLEBOT3_MODEL=waffle
-'''
+```
+
 ```bash
- roslaunch turtlebot3_gazebo turtlebot3_stage_2.launch
-'''
+roslaunch turtlebot3_gazebo turtlebot3_stage_2.launch
+```
 
