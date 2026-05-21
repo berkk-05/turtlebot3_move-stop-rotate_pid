@@ -27,7 +27,7 @@ Bu görevde robot, karşısındaki duvara veya engele tam olarak hedeflenen mesa
 * **Tolerans (Deadband) ve Kilitleme:** Motorlardaki mikro titreşimleri (oscillation) önlemek için +-2 cm'lik bir tolerans aralığı eklenmiştir. Robot hedef aralığa girdiğinde sistemi kilitler ve görevi başarıyla sonlandırır.
 
 **Çalıştırmak İçin:**
-    '''rosrun my_pkg pid_kontrol.py'''
+    ''' rosrun my_pkg pid_kontrol.py '''
 
 ---
 
@@ -38,6 +38,6 @@ Bu görevde robot, karşısındaki duvara veya engele tam olarak hedeflenen mesa
 * TurtleBot3 simülasyon paketleri (`turtlebot3_gazebo`)
 
 **Simülasyon ortamını başlatmak için:**
-    '''export TURTLEBOT3_MODEL=waffle'''
-    '''roslaunch turtlebot3_gazebo turtlebot3_stage_2.launch'''
+    ''' export TURTLEBOT3_MODEL=waffle '''
+    ''' roslaunch turtlebot3_gazebo turtlebot3_stage_2.launch '''
 
