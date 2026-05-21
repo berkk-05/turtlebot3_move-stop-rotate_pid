@@ -15,7 +15,7 @@ Bu paketi kendi ROS çalışma alanınıza (workspace) eklemek için bir termina
 
 ```bash
 cd ~/catkin_ws/src
-git clone [https://github.com/berkk-05/turtlebot3_basics.git](https://github.com/berkk-05/turtlebot3_basics.git)
+git clone https://github.com/berkk-05/turtlebot3_move-stop-rotate_pid.git
 cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
