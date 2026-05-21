@@ -3,11 +3,6 @@
 Bu depo, `my_pkg` ROS paketi altında geliştirilmiş iki farklı otonom mobil robot görevini içermektedir. Görevler, ROS 1 Noetic ortamında TurtleBot3 kullanılarak hazırlanmıştır.
 
 ---
-# TurtleBot3: Navigation and PID Control 🐢
-
-Bu depo, `my_pkg` ROS paketi altında geliştirilmiş iki farklı otonom mobil robot görevini içermektedir. Görevler, ROS 1 Noetic ortamında TurtleBot3 kullanılarak hazırlanmıştır.
-
----
 
 ## 📥 Paketi İndirme ve Derleme (Cloning & Setup)
 
